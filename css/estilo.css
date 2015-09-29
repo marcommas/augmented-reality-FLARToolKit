@@ -1,0 +1,158 @@
+.logo{
+    width:35px;
+    margin-top:-12px;
+}
+.texto{
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.textoAzul{
+	color: #002EB8;
+}
+.botao{
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding:10px 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	border: 1px solid transparent;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+
+
+}
+.botao-default{
+	color: #000000;
+	text-decoration: none;
+	background-color: #ffffff  ;
+	border: 1px solid #DCDCDC;
+}
+.botao-default:hover,
+.botao-default:active {
+	background: #D3D3D3;
+	cursor: pointer; 
+	transition: background .5s;
+}
+
+
+.botao-success{
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: #29A329;
+}
+.botao-success:hover,
+.botao-success:active {
+	color: #ffffff;
+	background-color: #51a351;
+	cursor: pointer; 
+	transition: background .5s;
+  
+}
+
+.botao-primary{
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: #117bff  ;
+}
+.botao-primary:hover,
+.botao-primary:active {
+	color: #ffffff;
+	background: #006dcc;
+	cursor: pointer; 
+	transition: background .5s;
+}
+
+
+.botao-warning{
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: #f89406  ;
+}
+.botao-warning:hover,
+.botao-warning:active {
+	color: #ffffff;
+	background: #ffa800;
+	cursor: pointer; 
+	transition: background .5s;
+}
+
+.botao-danger{
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-decoration: none;
+	background-color: #800000  ;
+}
+.botao-danger:hover,
+.botao-danger:active {
+	color: #ffffff;
+	background: #8D1919;
+	cursor: pointer; 
+	transition: background .5s;
+}
+
+.lista{
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	padding:5px 0;
+	letter-spacing: 1px;
+	
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: middle;
+	display: block;
+	color: #002EB8;
+	border-bottom: 1px solid #ddd;
+
+	text-decoration: none;
+}
+
+li.lista:hover,
+li.lista:focus,
+li.lista:active{
+	text-decoration: none;
+	color: #337ab7;
+	border-radius: 5px;
+	transition: background .5s;
+}
+
+.barra_vantagens{
+    position: relative; 
+    overflow: hidden;
+    /*margin-bottom: 5px; */
+}
+
+
+.imagem {
+
+	border: 1px solid transparent;
+	position: relative;
+	max-width: 400px;
+	max-height: 400px;
+
+}
+.imagem > img {
+  margin-right: auto;
+  margin-left: auto;
+}
